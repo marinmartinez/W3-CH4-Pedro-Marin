@@ -1,27 +1,9 @@
-# Learning JS
+# Series
 
-1. ESM
-2. Prettier + editorconfig
-3. ESLINT
-    - ESM
-    - prettier
-    - jest
-    - typescript
-4. Jest
+Aquí tienes una aplicación maquetada con HTML y CSS. Se trata de una aplicación que gestiona un listado de series, separándolas entre series vistas y no vistas.
 
-    - ESM
-    - Typescript
+Esta aplicación se alimentará de un objeto JS que tienes en el archivo series.js.
 
-5. TS
-    - Install:
-    ```shell
-    npm i typescript @types/node ts-node
-    ```
-    - Config
-    ```shell
-    tsc --init
-    ```
-    - Ajustes config
-        - module
-        - rootDir
-        - outDir
+Tienes que mostrar un listado de series, separándolas entre vistas y no vistas. Cada serie tiene que mostrar toda la información que ves en la maqueta. Si la serie es no vista, sus estrellas tienen que estar a 0 y el usuario debería poder clicar para valorar la serie con las estrellas que crea necesario. Al clicar en una estrella, la aplicación debe modificar la valoración y la serie debe pasar de no vista a vista (no hay ninguna manera de pasar una serie de vista a no vista).
+
+Si el usuario hace click en el icono de la x, la serie se debe eliminar.
