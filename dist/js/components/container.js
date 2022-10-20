@@ -1,5 +1,5 @@
 import { Component } from './component.js';
-export class Main extends Component {
+export class Container extends Component {
     constructor(selector) {
         super();
         this.selector = selector;
@@ -8,7 +8,7 @@ export class Main extends Component {
     }
     createTemplate() {
         return `
-        <main class="main"></main>
+        <div class="container"></div>
         `;
     }
 }
