@@ -1,0 +1,15 @@
+import { Component } from './component.js';
+import { Container } from './container.js';
+import { Header } from './header.js';
+import { Main } from './main.js';
+import { SectionTitles } from './main.sectio.titles.js';
+import { SectionList } from './main.section.js';
+import { SeriesPending } from './seriesPending.js';
+import { SeriesWatched } from './seriesWatched.js';
+new Container('body');
+new Header('.container');
+new Main('.container');
+new SectionList('.main');
+new SectionTitles('.series');
+new SeriesPending('.series');
+new SeriesWatched('.series');
